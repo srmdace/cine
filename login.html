@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { background-color: black; }
+      </style>
+</head>
+<body>
+    <div>
+
+        <ul class="menu_flex">
+            <li><a href="index.html">ACCEUIL</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+            <li><a href="tableau.html">TABLEAU</a></li>
+            <li><a href="index.html">DÉCONNECTION</a></li>
+            </ul>
+    
+       </div> 
+    <form action="action_page.php" method="post" class="back">
+      
+      
+        <div class="container">
+          <label for="uname"><b>Username</b>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+        </label>
+          <label for="psw"><b>Password</b>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+        </label>
+        </div>
+        <div class="blog">
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+          <button type="submit" align="left">Login</button>
+          
+            </div>
+      </form>
+
+</body>
+</html>
